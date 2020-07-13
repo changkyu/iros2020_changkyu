@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <name>aruco</name>
+  <version>0.1.0</version>
+  <description>Catkinized aruco</description>
+  <license>non-profit license</license>
+  <url type="website">http://sites.google.com/site/changkyusong86</url>
+  <author email="changkyusong86@gmail.com">Changkyu Song</author>
+  <maintainer email="changkyusong86@gmail.com">Changkyu Song</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>  
+</package>

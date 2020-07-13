@@ -1,0 +1,188 @@
+[ROBOT] Goto 
+position: 
+  x: 0.442944
+  y: 0.185904
+  z: 0.41536
+orientation: 
+  x: 0.713316
+  y: -0.625291
+  z: -0.0370079
+  w: 0.31436
+
+obtain tag position ...
+id: 0
+pose: x: 0.860915
+y: 0.109049
+z: -0.193717
+
+id: 1
+pose: x: 0.69902
+y: 0.00959234
+z: 0.120663
+
+[ROBOT] Goto 
+position: 
+  x: 0.485016
+  y: -0.0296711
+  z: 0.413636
+orientation: 
+  x: -0.573251
+  y: 0.762116
+  z: 0.141425
+  w: -0.265632
+
+obtain tag position ...
+id: 0
+pose: x: 0.777722
+y: 0.0589593
+z: -0.19253
+
+id: 1
+pose: x: 0.734892
+y: 0.0680837
+z: 0.164027
+
+[ROBOT] Goto 
+position: 
+  x: 0.239514
+  y: -0.401377
+  z: 0.404253
+orientation: 
+  x: -0.169104
+  y: 0.933557
+  z: 0.299239
+  w: -0.101644
+
+obtain tag position ...
+id: 0
+pose: x: 0.705585
+y: -0.0437571
+z: -0.0902683
+
+[ROBOT] Goto 
+position: 
+  x: 0.278658
+  y: -0.2601
+  z: 0.574083
+orientation: 
+  x: -0.285556
+  y: 0.947994
+  z: 0.0870881
+  w: -0.110363
+
+obtain tag position ...
+id: 0
+pose: x: 0.869809
+y: 0.0529596
+z: -0.032268
+
+id: 1
+pose: x: 0.907118
+y: 0.284053
+z: 0.249429
+
+[ROBOT] Goto 
+position: 
+  x: 0.330803
+  y: -0.246745
+  z: 0.407139
+orientation: 
+  x: 0.893547
+  y: 0.256354
+  z: -0.0862075
+  w: -0.358365
+
+obtain tag position ...
+id: 0
+pose: x: 0.59251
+y: 0.0508758
+z: 0.103516
+
+[ROBOT] Goto 
+position: 
+  x: 0.363488
+  y: -0.0849812
+  z: 0.59939
+orientation: 
+  x: -0.520066
+  y: 0.846988
+  z: 0.0316384
+  w: -0.105555
+
+obtain tag position ...
+id: 0
+pose: x: 0.933565
+y: 0.1433
+z: -0.156196
+
+id: 1
+pose: x: 0.895928
+y: 0.211524
+z: 0.199583
+
+[ROBOT] Goto 
+position: 
+  x: 0.418768
+  y: -0.0613595
+  z: 0.404463
+orientation: 
+  x: -0.0386498
+  y: 0.938515
+  z: -0.0231342
+  w: -0.342289
+
+obtain tag position ...
+id: 0
+pose: x: 0.689206
+y: -0.0869168
+z: -0.114152
+
+id: 1
+pose: x: 0.658476
+y: 0.249022
+z: 0.00414867
+
+[ROBOT] Goto 
+position: 
+  x: 0.34552
+  y: 0.232447
+  z: 0.431533
+orientation: 
+  x: 0.575365
+  y: 0.757082
+  z: -0.284518
+  w: -0.121785
+
+obtain tag position ...
+id: 1
+pose: x: 0.679969
+y: 0.0042063
+z: -0.155525
+
+id: 0
+pose: x: 0.787583
+y: -0.151762
+z: 0.152373
+
+[ROBOT] Goto 
+position: 
+  x: 0.385745
+  y: 0.1418
+  z: 0.563782
+orientation: 
+  x: 0.731902
+  y: -0.663584
+  z: -0.00953289
+  w: 0.154548
+
+obtain tag position ...
+id: 1
+pose: x: 0.874244
+y: 0.108403
+z: 0.0946552
+
+id: 0
+pose: x: 0.952501
+y: 0.231982
+z: -0.238009
+

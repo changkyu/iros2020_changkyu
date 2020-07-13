@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="models_path" default="/home/cs1080/projects/iros2020/software/cellphysics/sav/" />  
+
+	<param name="/changkyu/pkg_rss2019/prob_planner_srv/models_path" type="string" value="$(arg models_path)" />	
+  <node pkg="pkg_rss2019" 
+        type="prob_planner_srv.py" 
+        name="prob_planner_srv" 
+        output="screen" respawn="false" />
+</launch>

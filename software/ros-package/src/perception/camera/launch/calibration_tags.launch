@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+<rosparam param="changkyu/camera/calibration" command="load" file="$(find changkyu_camera)/config/camera_info_tags.yaml" />
+<node ns="iiwa" pkg="changkyu_camera" 
+                type="changkyu_calibration_tags_app" name="changkyu_calibration_tags_app" output="screen"/>
+
+<!--                
+<node name="ar_track_alvar" pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen">
+    <param name="marker_size"  type="double" value="2.0" />
+    <param name="output_frame" type="string" value="camera_color_frame" />
+    <remap from="camera_image" to="camera/color/image_raw" />
+    <remap from="camera_info"  to="camera/color/camera_info" />
+</node>
+-->
+
+</launch>

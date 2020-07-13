@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="use_robot"   default="true" />
+  <arg name="use_pause"   default="true" />
+  <arg name="use_prop"    default="false" />
+  <arg name="name"        default="object" />
+  <arg name="marker_size" default="0.025"  />
+  <arg name="goal"        default="[0.45,-0.50,50]"  />
+  <!-- <arg name="goal"        default="[0.45,0.50,-50]"  /> -->
+
+	<param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/camera_config" type="string" value="$(find changkyu_camera)/config/camera_info_all.yaml" />	
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/camera_name"   type="string" value="camera_on_robotiq" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/camera_name"   type="string" value="camera_on_robotiq" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/camera_offset_x" type="double" value="0.10" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/camera_offset_z" type="double" value="-0.10" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/finger_mode"   type="string" value="t" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/finger_length" type="double" value="0.25" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/marker_size"   type="double" value="$(arg marker_size)" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/object_name"   type="string" value="$(arg name)" />
+    <rosparam param="/changkyu/pkg_rss2019/demo_push_unknown_objects/object_goal" subst_value="True">$(arg goal)</rosparam>
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/use_robot"     type="bool"   value="$(arg use_robot)" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/use_pause"     type="bool"   value="$(arg use_pause)" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/use_prop"     type="bool"   value="$(arg use_prop)" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/objects_dir"    type="string" value="$(find pkg_rss2019)/objects" />
+    <param name="/changkyu/pkg_rss2019/demo_push_unknown_objects/save_dir"      type="string" value="$(find pkg_rss2019)/save/plan" />
+    
+
+    <node ns="iiwa" pkg="pkg_rss2019" 
+          type="demo_prob_push_unknown_objects" 
+          name="demo_prob_push_unknown_objects" 
+          output="screen" respawn="false" />
+</launch>

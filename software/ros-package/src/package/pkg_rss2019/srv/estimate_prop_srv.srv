@@ -1,0 +1,7 @@
+string name
+geometry_msgs/Pose2D pos_begin
+geometry_msgs/Pose2D pos_final
+geometry_msgs/Pose2D pos_push
+geometry_msgs/Pose2D vec_push
+float32 duration
+---

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="sim" default="false"/>
+
+	<!-- <include ns="iiwa" file = "$(find task_planning)/launch/iiwa_robotiq.launch"   unless="$(arg sim)"/> -->
+	<!--<include ns="iiwa" file = "$(find task_planning)/launch/iiwa_robotiq.launch"/>-->
+	
+	<node ns="iiwa" name="demo_node" pkg="test_pkg" type="demo_node" respawn="false" output="screen"  launch-prefix="" />
+</launch>

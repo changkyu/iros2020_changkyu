@@ -1,0 +1,10 @@
+string name
+geometry_msgs/Pose2D init
+geometry_msgs/Pose2D goal
+int32 pred_step
+sensor_msgs/Image image
+float32 meter_per_pixel
+---
+geometry_msgs/Pose2D[] path
+geometry_msgs/Pose2D[] pushes_beg
+geometry_msgs/Pose2D[] pushes_end

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- #### ROBOTIQ GRIPPER CONFIG ####-->
+	<!-- <include ns="iiwa" file = "$(find task_planning)/launch/iiwa_robotiq.launch"/> -->
+	<node ns="iiwa" name="camera_calib" pkg="camera_calib" type="camera_calib" respawn="false" output="screen"/>
+	<node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0  0 0 0 0 1 iiwa_link_ee calib_marker 100" />
+	<param name="camera_calib/subtopic/pointcloud" value="/camera/depth_registered/points" />
+	<param name="camera_calib/outdir" value="$(find camera_calib)/output" />
+    
+</launch>

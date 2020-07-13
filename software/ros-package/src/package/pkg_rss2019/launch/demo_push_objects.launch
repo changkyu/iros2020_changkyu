@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="use_robot"   default="true" />
+  <arg name="use_pause"   default="false" />
+  <arg name="name"        default="object" />
+	<arg name="marker_type" default="none" />
+	<arg name="marker_size" default="0.025"  />
+	<arg name="push_point"  default="-1" />
+
+	<param name="/changkyu/pkg_rss2019/demo_push_objects/camera_config" type="string" value="$(find changkyu_camera)/config/camera_info_all.yaml" />	
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/camera_name"   type="string" value="camera_on_robotiq" />
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/camera_name"   type="string" value="camera_on_robotiq" />
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/finger_mode"   type="string" value="t" />
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/finger_length" type="double" value="0.24" />
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/marker_type"   type="string" value="$(arg marker_type)" />
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/marker_size"   type="double" value="$(arg marker_size)" />
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/object_name"   type="string" value="$(arg name)" />
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/use_robot"     type="bool"   value="$(arg use_robot)" />
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/use_pause"     type="bool"   value="$(arg use_pause)" />
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/push_point"    type="int"    value="$(arg push_point)" />
+    <param name="/changkyu/pkg_rss2019/demo_push_objects/save_dir"      type="string" value="$(find pkg_rss2019)/save" />
+    
+
+    <node ns="iiwa" pkg="pkg_rss2019" 
+          type="demo_push_objects" 
+          name="demo_push_objects" 
+          output="screen" respawn="false" />
+</launch>

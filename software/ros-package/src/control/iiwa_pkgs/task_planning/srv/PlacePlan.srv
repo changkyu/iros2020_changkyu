@@ -1,0 +1,5 @@
+string target_object_name
+geometry_msgs/Pose target_object_pose
+---
+geometry_msgs/Pose pre_push_pose
+geometry_msgs/Pose post_push_pose

@@ -1,0 +1,12 @@
+<launch>
+
+<node pkg="changkyu_camera" type="changkyu_camera_recorder_app" name="changkyu_camera_recorder_app" output="screen"/>
+
+<rosparam param="changkyu/camera" command="load" file="$(find changkyu_camera)/config/camera_info_all.yaml" />
+
+<arg name="camera_config_path" default="$(find changkyu_camera)/config/camera_info_all.yaml" />
+<rosparam param="changkyu/camera_config" subst_value="True">
+    $(arg camera_config_path)
+</rosparam>
+
+</launch>

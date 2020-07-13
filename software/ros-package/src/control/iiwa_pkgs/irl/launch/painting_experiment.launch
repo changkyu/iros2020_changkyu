@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+	<include ns="iiwa" file = "$(find task_planning)/launch/iiwa_robotiq.launch"/>
+	<node ns="iiwa" name="painting" pkg="irl" type="painting" respawn="false" output="screen"/>
+</launch>

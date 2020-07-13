@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="gripper_ip" value="172.16.71.71" />
+	<arg name="keep_gripper_status" default="n" />
+	<node pkg="robotiq_s_model_control" name="robotiqSModel" type="SModelTcpNode.py" args="$(arg gripper_ip)" respawn="false"/>
+	<node pkg="robotiq_s_model_control" name="SModelPublisherController" type="SModelPublisherController.py" args = "$(arg keep_gripper_status)" respawn="false" output="screen"/>
+</launch>

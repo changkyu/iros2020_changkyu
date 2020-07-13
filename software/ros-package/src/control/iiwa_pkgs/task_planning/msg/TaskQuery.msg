@@ -1,0 +1,4 @@
+string query
+geometry_msgs/PoseStamped target_pose
+geometry_msgs/PoseStamped grasp_point
+float32 size

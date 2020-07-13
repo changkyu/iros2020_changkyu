@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<include ns="iiwa" file = "$(find task_planning)/launch/iiwa_robotiq.launch">
+		<!-- Don't change the value of the below arg. I  am still
+		testing it thoroughly. -->
+		<arg name="keep_gripper_status" default="n" />
+	</include>
+	<node ns="iiwa" name="active_vision_data_collection" pkg="active_vision" type="collect_data" respawn="false" output="screen"/>
+</launch>

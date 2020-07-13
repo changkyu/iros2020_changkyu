@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="joint_position_topic" default="/iiwa/state/JointPosition/" />
+	<arg name="cartesian_position_topic" default="/iiwa/state/CartesianPose/" />
+	<arg name="command_cartesian_pose_topic" default="/iiwa/command/JointPosition" />
+	<arg name="command_joint_position_topic" default="/iiwa/command/JointPosition" />
+	<arg name="mode" default="pose" />
+	<arg name="dist" default="0.05" />
+
+
+	<!-- <param name="/iiwa/publishJointStates" type="boolean" value="true" />
+
+	<include ns="iiwa" file="$(find iiwa_ex_moveit)/launch/planning_context.launch">
+		<arg name="load_robot_description" value="true" />
+	</include>
+
+	<node ns="iiwa" name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen" /> -->
+
+	<include ns="iiwa" file = "$(find task_planning)/launch/iiwa_robotiq.launch"/>
+
+	<node ns="iiwa" name="TestNode" pkg="test_pkg" type="test_node" respawn="false" output="screen">
+		<param name="joint_position_topic" value="$(arg joint_position_topic)" />
+		<param name="cartesian_position_topic" value="$(arg cartesian_position_topic)" />
+		<param name="command_cartesian_pose_topic" value="$(arg command_cartesian_pose_topic)" />
+		<param name="command_joint_position_topic" value="$arg command_joint_position_topic" />
+		<param name="mode" value="$(arg mode)" />
+	</node>
+
+	<!-- <node ns="iiwa" name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" /> -->
+</launch>

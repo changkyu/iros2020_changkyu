@@ -1,0 +1,7 @@
+string name
+geometry_msgs/Pose2D init
+geometry_msgs/Pose2D[] goals
+---
+geometry_msgs/Pose2D[] nexts
+geometry_msgs/Pose2D[] pushes_beg
+geometry_msgs/Pose2D[] pushes_end

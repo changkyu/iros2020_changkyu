@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/SalvoVirga/iiwa_stack.git
+	branch = master
+	commit = be2a2914a9287e717b80e5cc15ea3368254a8671
+	parent = 927140e150829d382b30dd1c620628bb06dcc524
+	cmdver = 0.3.1

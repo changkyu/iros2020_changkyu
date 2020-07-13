@@ -1,0 +1,10 @@
+string param
+bool use_camera
+string camera_name
+sensor_msgs/Image image
+sensor_msgs/Image depth
+float32 depth_scale
+float32[] camera_K
+float32[] camera_RT
+---
+rl_msgs/SegmentationScene segscene

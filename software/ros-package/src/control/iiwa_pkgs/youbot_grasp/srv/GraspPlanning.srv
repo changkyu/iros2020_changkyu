@@ -1,0 +1,9 @@
+std_msgs/String gripper_type
+int64 dump
+std_msgs/String object_file_name
+geometry_msgs/Pose object_pose
+float64 radius
+PlanningScene planning_scene
+---
+PlannedGrasp_vector planned_grasp_vector
+

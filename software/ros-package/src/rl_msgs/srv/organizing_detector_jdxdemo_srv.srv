@@ -1,0 +1,13 @@
+bool use_camera
+string camera_name
+string param
+sensor_msgs/Image image
+sensor_msgs/Image depth
+float32 depth_scale
+float32[] camera_K
+float32[] camera_RT
+---
+string[] actions_type
+geometry_msgs/Point[] actions_start
+geometry_msgs/Point[] actions_end
+SegmentationObject[]  objects_target

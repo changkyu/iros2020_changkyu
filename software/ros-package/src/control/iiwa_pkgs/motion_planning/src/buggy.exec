@@ -1,0 +1,307 @@
+[ WARN] [1526330731.187284489]: Finished Automaton stage SENSE
+[ INFO] [1526330731.187336201]: Current state at Demo: PICK_AND_PLACE
+[ WARN] [1526330731.187360793]: Beginning Automaton stage PaP
+[ WARN] [1526330731.187382263]: ####################################
+[ WARN] [1526330731.187398831]: ####################################
+[ERROR] [1526330731.187419879]: Objects to SENSE : 
+[ERROR] [1526330731.187443106]:   dove
+[ERROR] [1526330731.187459790]:   toothpaste
+[ERROR] [1526330731.187481354]: Objects to SENSE : 
+[ WARN] [1526330731.187509614]: ####################################
+[ WARN] [1526330731.187539406]: ####################################
+[ WARN] [1526330731.187567944]: Set specification for sensing.
+0.451907,-0.209139
+[ INFO] [1526330732.340419300]: Received a PICK_AND_PLACE query...
+[ INFO] [1526330732.340460219]: Executing a PICK query...
+[ INFO] [1526330732.340516604]: Current state at Grasper: START
+[ INFO] [1526330732.340556278]: Current state at Grasper: PRE GRASP
+[ WARN] [1526330732.340598378]: pre_grasp_point:0.453047,-0.20747,0.376679,0.34554,0.9384,-0.001849,-0.000465
+[ INFO] [1526330734.030143495]: Current state at Grasper: GRASP
+[ WARN] [1526330734.030284241]: grasp_point:0.452724,-0.207942,0.226681,0.34554,0.9384,-0.001849,-0.000465
+[ WARN] [1526330735.798201204]: The current gripper feedback is 1
+[ INFO] [1526330735.798271334]: Current state at Grasper: FINISH
+[ERROR] [1526330735.812354686]: Waypoint fractional completion...1
+[ WARN] [1526330735.812450029]: Points in trajectory ||| 16
+[ WARN] [1526330735.812507190]: Final point in trajectory ||| 1.175354004
+[New Thread 0x7fffb4cd9700 (LWP 128027)]
+[Thread 0x7fffb4cd9700 (LWP 128027) exited]
+[ WARN] [1526330737.560498046]: Successfully completed Cartesian control
+[ WARN] [1526330737.560555313]: The current gripper feedback is 1
+[ERROR] [1526330737.560588054]: PICKED
+[ INFO] [1526330737.560655516]: Executing a TRANSFER query...
+[ WARN] [1526330737.560704360]: bin_1_back_plan
+[ WARN] [1526330737.560828140]: starting joint position for transfer plan 2
+[ INFO] [1526330737.560890911]: JointPosition:(-0.694027,0.328329,-0.0120603,-1.57091,6.03046e-05,1.24202,7.42423e-05
+[ INFO] [1526330737.560923910]: before steering
+[ INFO] [1526330737.560966219]: JointPosition:(-0.476147,0.405335,0.0607304,-1.75378,-0.0350835,0.970554,0.304869
+[ INFO] [1526330739.248062260]: /iiwa/demo_node: state/timeToDestination successfully called.
+[ INFO] [1526330739.248128078]: Raw ttd received: -0.0276824
+[ INFO] [1526330739.312084584]: /iiwa/demo_node: state/timeToDestination successfully called.
+[ INFO] [1526330739.312173612]: Raw ttd received: -0.00285875
+[ INFO] [1526330739.376048416]: /iiwa/demo_node: state/timeToDestination successfully called.
+[ INFO] [1526330739.376123690]: Raw ttd received: -0.0678588
+[ INFO] [1526330739.443063969]: /iiwa/demo_node: state/timeToDestination successfully called.
+[ INFO] [1526330739.443152580]: Raw ttd received: -0.130859
+[ INFO] [1526330739.507082795]: /iiwa/demo_node: state/timeToDestination successfully called.
+[ INFO] [1526330739.507152021]: starting point:
+[ INFO] [1526330739.507204416]: JointPosition:(-0.694027,0.328329,-0.0120603,-1.57091,6.03046e-05,1.24202,7.42423e-05
+[ INFO] [1526330739.507250195]: JointPosition:(-0.694067,0.328325,-0.0121453,-1.57088,0.000118117,1.24195,0.000162925
+[ WARN] [1526330739.507328305]: transfer_2 has 10 points
+[New Thread 0x7fffb4cd9700 (LWP 128064)]
+[ INFO] [1526330741.560846083]: Executing a RELEASE query...
+[ERROR] [1526330741.560990052]: 
+DELAYED RELEASE
+
+DELAYED RELEASE
+
+DELAYED RELEASE
+
+DELAYED RELEASE
+
+[Thread 0x7fffb4cd9700 (LWP 128064) exited]
+[ INFO] [1526330742.734620745]: final point:
+[ INFO] [1526330742.734723472]: JointPosition:(0.680863,0.328214,-0.0121439,-1.5709,0.000122239,1.24196,7.43621e-05
+[ INFO] [1526330742.734769762]: JointPosition:(0.694038,0.328297,-0.0121033,-1.571,0.000148527,1.24205,7.51488e-05
+[ERROR] [1526330742.734881377]: MOVED FROM SOURCE TO TARGET
+[ INFO] [1526330742.734940019]: calling sense on bin 1
+[ INFO] [1526330742.735033228]: Executing a TRANSFER query...
+[ WARN] [1526330742.735103263]: bin_1_go_plan
+[ WARN] [1526330742.735267816]: starting joint position for transfer plan 2
+[ INFO] [1526330742.735340294]: JointPosition:(0.693988,0.328323,-0.0121487,-1.57092,0.000139113,1.24203,7.6699e-05
+[ INFO] [1526330742.735389060]: before steering
+[ INFO] [1526330742.735458938]: JointPosition:(0.680863,0.328214,-0.0121439,-1.5709,0.000122239,1.24196,7.43621e-05
+[ INFO] [1526330743.181615628]: /iiwa/demo_node: state/timeToDestination successfully called.
+[ INFO] [1526330743.181694848]: Sleeping for 0.279814 seconds.
+[ INFO] [1526330743.461666156]: starting point:
+[ INFO] [1526330743.461821910]: JointPosition:(0.693988,0.328323,-0.0121487,-1.57092,0.000139113,1.24203,7.6699e-05
+[ INFO] [1526330743.461903353]: JointPosition:(0.694301,0.328277,-0.0121895,-1.57098,0.000118979,1.24196,7.43621e-05
+[ WARN] [1526330743.462017834]: transfer_2 has 10 points
+[New Thread 0x7fffb4cd9700 (LWP 128130)]
+[Thread 0x7fffb4cd9700 (LWP 128130) exited]
+[ INFO] [1526330746.743436211]: final point:
+[ INFO] [1526330746.743523606]: JointPosition:(-0.681144,0.32826,-0.0121174,-1.57099,0.000119459,1.24196,7.43022e-05
+[ INFO] [1526330746.743572660]: JointPosition:(-0.694045,0.32815,-0.0120229,-1.57093,9.85052e-05,1.24198,0.000103647
+[ERROR] [1526330746.743623762]: MOVED FROM TARGET BACK TO SOURCE
+[ INFO] [1526330746.743654952]: Current state at Demo: SENSE
+[ WARN] [1526330746.743672563]: Getting sensing information....
+[ WARN] [1526330746.743692615]: Invoking blocking service call to fetch sensed objects.
+
+Response... 
+Object name: toothpaste
+Object width: 0.040000
+EE Pose: [ 0.488343 -0.455447 -0.149105 0.345540 0.938400 -0.001849 -0.000465 ]
+Surface-- center:-0.0785064
+1.79144
+6.06782e+07
+ rotation:    -1.65859           -0      -1.5241
+           2     -1.72772 -4.64372e+08
+     1.74417            0      1.67277
+ dimensions: 1.30061e+29
+1.8596
+[ WARN] [1526330746.769177151]: Finished Automaton stage SENSE
+[ INFO] [1526330746.793749491]: Current state at Demo: PICK_AND_PLACE
+[ WARN] [1526330746.793812352]: Beginning Automaton stage PaP
+[ WARN] [1526330746.793851118]: ####################################
+[ WARN] [1526330746.793881510]: ####################################
+[ERROR] [1526330746.793915837]: Objects to SENSE : 
+[ERROR] [1526330746.793951933]:   dove
+[ERROR] [1526330746.793971039]:   toothpaste
+[ERROR] [1526330746.794002903]: Objects to SENSE : 
+[ WARN] [1526330746.794029895]: ####################################
+[ WARN] [1526330746.794052758]: ####################################
+[ WARN] [1526330746.794078660]: Set specification for sensing.
+0.488343,-0.455447
+[ INFO] [1526330747.639358100]: Received a PICK_AND_PLACE query...
+[ INFO] [1526330747.639414820]: Executing a PICK query...
+[ INFO] [1526330747.639491620]: Current state at Grasper: START
+[ INFO] [1526330747.639563326]: Current state at Grasper: PRE GRASP
+[ WARN] [1526330747.639616692]: pre_grasp_point:0.489483,-0.453778,0.380887,0.34554,0.9384,-0.001849,-0.000465
+[ WARN] [1526330749.542077677]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1526330758.000116653]: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1526330758.000157175]: Current state at Grasper: FAIL
+[ERROR] [1526330758.000176205]: FAILED TO PICK
+[ INFO] [1526330758.000190315]: Executing a PLACE query...
+[ INFO] [1526330760.878181334]: Executing a RELEASE query...
+[ INFO] [1526330760.878332119]: calling sense on bin 1
+[ INFO] [1526330760.878452878]: Current state at Demo: SENSE
+[ WARN] [1526330760.878502851]: Getting sensing information....
+[ WARN] [1526330760.878551761]: Invoking blocking service call to fetch sensed objects.
+
+Response... 
+Object name: toothpaste
+Object width: 0.040000
+EE Pose: [ 0.494510 -0.142500 -0.154696 0.345540 0.938400 -0.001849 -0.000465 ]
+Surface-- center:6.55519e+16
+1.8664
+552559
+ rotation:     1.62731           -2      -1.5297
+           2      -1.5175 -4.64372e+08
+     1.74725            0      1.67277
+ dimensions: 1.30061e+29
+1.8596
+[ WARN] [1526330764.107949873]: Finished Automaton stage SENSE
+[ INFO] [1526330764.108003179]: Current state at Demo: PICK_AND_PLACE
+[ WARN] [1526330764.108030668]: Beginning Automaton stage PaP
+[ WARN] [1526330764.108059129]: ####################################
+[ WARN] [1526330764.108083619]: ####################################
+[ERROR] [1526330764.108108586]: Objects to SENSE : 
+[ERROR] [1526330764.108139405]:   dove
+[ERROR] [1526330764.108165637]:   toothpaste
+[ERROR] [1526330764.108207196]: Objects to SENSE : 
+[ WARN] [1526330764.108239196]: ####################################
+[ WARN] [1526330764.108268126]: ####################################
+[ WARN] [1526330764.108307898]: Set specification for sensing.
+0.49451,-0.1425
+[ INFO] [1526330764.957835590]: Received a PICK_AND_PLACE query...
+[ INFO] [1526330764.957871437]: Executing a PICK query...
+[ INFO] [1526330764.957921634]: Current state at Grasper: START
+[ INFO] [1526330764.957949999]: Current state at Grasper: PRE GRASP
+[ WARN] [1526330764.957991984]: pre_grasp_point:0.495649,-0.140831,0.375296,0.34554,0.9384,-0.001849,-0.000465
+[ INFO] [1526330768.292198528]: Current state at Grasper: GRASP
+[ WARN] [1526330768.292339241]: grasp_point:0.495327,-0.141303,0.225298,0.34554,0.9384,-0.001849,-0.000465
+[ WARN] [1526330770.029792240]: The current gripper feedback is 1
+[ INFO] [1526330770.029872743]: Current state at Grasper: FINISH
+[ERROR] [1526330770.049669881]: Waypoint fractional completion...1
+[ WARN] [1526330770.049733322]: Points in trajectory ||| 21
+[ WARN] [1526330770.049766800]: Final point in trajectory ||| 1.178115781
+[New Thread 0x7fffb4cd9700 (LWP 29773)]
+[Thread 0x7fffb4cd9700 (LWP 29773) exited]
+[ WARN] [1526330771.812944576]: Successfully completed Cartesian control
+[ WARN] [1526330771.813040881]: The current gripper feedback is 1
+[ERROR] [1526330771.813089783]: PICKED
+[ INFO] [1526330771.813159613]: Executing a TRANSFER query...
+[ WARN] [1526330771.813247104]: bin_1_back_plan
+[ WARN] [1526330771.813407815]: starting joint position for transfer plan 2
+[ INFO] [1526330771.813492465]: JointPosition:(-0.694027,0.328329,-0.0120603,-1.57091,6.03046e-05,1.24202,7.42423e-05
+[ INFO] [1526330771.813523777]: before steering
+[ INFO] [1526330771.813578329]: JointPosition:(-0.381679,0.443957,0.137889,-1.70284,-0.0778117,0.988791,0.491527
+[ INFO] [1526330773.921061706]: /iiwa/demo_node: state/timeToDestination successfully called.
+[ INFO] [1526330773.921150317]: Raw ttd received: -0.208087
+[ INFO] [1526330773.980264870]: /iiwa/demo_node: state/timeToDestination successfully called.
+[ INFO] [1526330773.980344371]: Sleeping for 0.0259921 seconds.
+[ INFO] [1526330774.006465555]: starting point:
+[ INFO] [1526330774.006549326]: JointPosition:(-0.694027,0.328329,-0.0120603,-1.57091,6.03046e-05,1.24202,7.42423e-05
+[ INFO] [1526330774.006595827]: JointPosition:(-0.694123,0.328261,-0.012154,-1.57092,9.77913e-05,1.24189,-6.2318e-05
+[ WARN] [1526330774.006651238]: transfer_2 has 10 points
+[New Thread 0x7fffb4cd9700 (LWP 29807)]
+[ INFO] [1526330775.813468442]: Executing a RELEASE query...
+[ERROR] [1526330775.813615332]: 
+DELAYED RELEASE
+
+DELAYED RELEASE
+
+DELAYED RELEASE
+
+DELAYED RELEASE
+
+[Thread 0x7fffb4cd9700 (LWP 29807) exited]
+[ INFO] [1526330777.087673561]: final point:
+[ INFO] [1526330777.087758718]: JointPosition:(0.640767,0.328227,-0.0120488,-1.57095,0.000122623,1.24204,-1.41414e-05
+[ INFO] [1526330777.087799002]: JointPosition:(0.694038,0.328297,-0.0121033,-1.571,0.000148527,1.24205,7.51488e-05
+[ERROR] [1526330777.087862921]: MOVED FROM SOURCE TO TARGET
+[ INFO] [1526330777.087932207]: calling sense on bin 1
+[ INFO] [1526330777.088037364]: Executing a TRANSFER query...
+[ WARN] [1526330777.088087182]: bin_1_go_plan
+[ WARN] [1526330777.088261723]: starting joint position for transfer plan 2
+[ INFO] [1526330777.088317171]: JointPosition:(0.693988,0.328323,-0.0121487,-1.57092,0.000139113,1.24203,7.6699e-05
+[ INFO] [1526330777.088345639]: before steering
+[ INFO] [1526330777.088384343]: JointPosition:(0.640767,0.328227,-0.0120488,-1.57095,0.000122623,1.24204,-1.41414e-05
+[ INFO] [1526330777.939403133]: /iiwa/demo_node: state/timeToDestination successfully called.
+[ INFO] [1526330777.939485308]: Sleeping for 0.279412 seconds.
+[ INFO] [1526330778.219030615]: starting point:
+[ INFO] [1526330778.219123226]: JointPosition:(0.693988,0.328323,-0.0121487,-1.57092,0.000139113,1.24203,7.6699e-05
+[ INFO] [1526330778.219168827]: JointPosition:(0.694202,0.328222,-0.0121667,-1.57095,0.000122814,1.24205,-1.37219e-05
+[ WARN] [1526330778.219225735]: transfer_2 has 10 points
+[New Thread 0x7fffb4cd9700 (LWP 29873)]
+[Thread 0x7fffb4cd9700 (LWP 29873) exited]
+[ INFO] [1526330781.330422166]: final point:
+[ INFO] [1526330781.330499015]: JointPosition:(-0.64837,0.328261,-0.0121022,-1.57094,0.000122527,1.24205,-2.39656e-07
+[ INFO] [1526330781.330547505]: JointPosition:(-0.694045,0.32815,-0.0120229,-1.57093,9.85052e-05,1.24198,0.000103647
+[ERROR] [1526330781.330619245]: MOVED FROM TARGET BACK TO SOURCE
+[ INFO] [1526330781.330681236]: Current state at Demo: SENSE
+[ WARN] [1526330781.330709948]: Getting sensing information....
+[ WARN] [1526330781.330739147]: Invoking blocking service call to fetch sensed objects.
+
+Response... 
+Object name: dove
+Object width: 0.040000
+EE Pose: [ 0.487749 -0.429393 -0.151275 0.345540 0.938400 -0.001849 -0.000465 ]
+Surface-- center:2.25477e+31
+1.64233
+-1.51822e-05
+ rotation:     1.77874  -1.0842e-19     -1.52628
+           2      -1.7147 -4.64372e+08
+     1.74387           -2      1.67277
+ dimensions: 1.30061e+29
+1.8596
+[ WARN] [1526330781.367325266]: Finished Automaton stage SENSE
+[ INFO] [1526330781.380752993]: Current state at Demo: PICK_AND_PLACE
+[ WARN] [1526330781.380811082]: Beginning Automaton stage PaP
+[ WARN] [1526330781.380837947]: ####################################
+[ WARN] [1526330781.380861604]: ####################################
+[ERROR] [1526330781.380881782]: Objects to SENSE : 
+[ERROR] [1526330781.380910440]:   dove
+[ERROR] [1526330781.380938997]:   toothpaste
+[ERROR] [1526330781.380964808]: Objects to SENSE : 
+[ WARN] [1526330781.381009778]: ####################################
+[ WARN] [1526330781.381033332]: ####################################
+[ WARN] [1526330781.381063508]: Set specification for sensing.
+0.487749,-0.429393
+[ INFO] [1526330781.999820091]: Received a PICK_AND_PLACE query...
+[ INFO] [1526330781.999853377]: Executing a PICK query...
+[ INFO] [1526330781.999913509]: Current state at Grasper: START
+[ INFO] [1526330781.999963556]: Current state at Grasper: PRE GRASP
+[ WARN] [1526330781.999998166]: pre_grasp_point:0.488889,-0.427724,0.378716,0.34554,0.9384,-0.001849,-0.000465
+[ INFO] [1526330787.939072430]: Current state at Grasper: GRASP
+[ WARN] [1526330787.939186929]: grasp_point:0.488567,-0.428196,0.228719,0.34554,0.9384,-0.001849,-0.000465
+[ WARN] [1526330795.513328223]: The current gripper feedback is 1
+[ INFO] [1526330795.513409142]: Current state at Grasper: FINISH
+[ERROR] [1526330795.517160726]: Waypoint fractional completion...0
+[ERROR] [1526330795.517255672]: FAILED to complete Cartesian control
+[ERROR] [1526330795.517303380]: FAILED TO PICK
+[ INFO] [1526330795.517340345]: Executing a PLACE query...
+^C[iiwa/demo_node-1] killing on exit
+^C^C^C^C^C[ INFO] [1526330800.663734335]: Executing a RELEASE query...
+[ INFO] [1526330800.663846849]: calling sense on bin 1
+[ INFO] [1526330800.663919055]: Current state at Demo: SENSE
+[ WARN] [1526330800.663953372]: Getting sensing information....
+[ WARN] [1526330800.664019504]: Invoking blocking service call to fetch sensed objects.
+^C^C^C^C
+Response... 
+Object name: toothpaste
+Object width: 0.040000
+EE Pose: [ 0.486134 -0.454181 -0.150520 0.345540 0.938400 -0.001849 -0.000465 ]
+Surface-- center:5.68521e+22
+1.78784
+62720.2
+ rotation:    -1.65739           -0     -1.52552
+          -2     -1.72709 -4.64372e+08
+     1.74307            2      1.67277
+ dimensions: 1.30061e+29
+1.8596
+[ WARN] [1526330804.114085936]: Finished Automaton stage SENSE
+[ INFO] [1526330804.114140720]: Current state at Demo: PICK_AND_PLACE
+[ WARN] [1526330804.114167339]: Beginning Automaton stage PaP
+[ WARN] [1526330804.114193330]: ####################################
+[ WARN] [1526330804.114225396]: ####################################
+[ERROR] [1526330804.114266983]: Objects to SENSE : 
+[ERROR] [1526330804.114305071]:   dove
+[ERROR] [1526330804.114339683]:   toothpaste
+[ERROR] [1526330804.114368996]: Objects to SENSE : 
+[ WARN] [1526330804.114396422]: ####################################
+[ WARN] [1526330804.114424903]: ####################################
+[ WARN] [1526330804.114470494]: Set specification for sensing.
+0.486134,-0.454181
+[ INFO] [1526330804.693646244]: Received a PICK_AND_PLACE query...
+[ INFO] [1526330804.693677876]: Executing a PICK query...
+[ INFO] [1526330804.693729020]: Current state at Grasper: START
+[ INFO] [1526330804.693757284]: Current state at Grasper: PRE GRASP
+[ WARN] [1526330804.693796314]: pre_grasp_point:0.487274,-0.452512,0.379472,0.34554,0.9384,-0.001849,-0.000465
+^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C[iiwa/demo_node-1] escalating to SIGTERM
+Exception ignored in: <gdb.GdbOutputFile object at 0x7f998e06a828>
+Traceback (most recent call last):
+  File "/usr/share/gdb/python/gdb/__init__.py", line 43, in flush
+    def flush(self):
+KeyboardInterrupt
+^C^C^C^C^C^C^C^Cshutting down processing monitor...
+... shutting down processing monitor complete

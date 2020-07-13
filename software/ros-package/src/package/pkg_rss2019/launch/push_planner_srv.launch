@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="method" default="bfs" />
+
+	<param name="/changkyu/pkg_rss2019/push_planner_srv/method" type="string" value="$(arg method)" />	
+  <node pkg="pkg_rss2019" 
+        type="push_planner_srv.py" 
+        name="push_planner_srv" 
+        output="screen" respawn="false" />
+</launch>

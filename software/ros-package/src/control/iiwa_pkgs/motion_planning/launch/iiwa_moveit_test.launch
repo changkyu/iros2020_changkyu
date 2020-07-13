@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>  
+  <include file="$(find iiwa_ex_moveit)/launch/moveit_planning_execution.launch">
+    <arg name="sim" value="false"/>
+    <arg name="rviz" value="true"/>
+  </include>
+
+  
+  <param name="/iiwa/move_group/trajectory_execution/allowed_start_tolerance" value="0.15"/> <!-- default 0.01, changed by wei on 3/13 -->
+</launch>

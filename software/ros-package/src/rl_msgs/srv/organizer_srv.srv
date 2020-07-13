@@ -1,0 +1,5 @@
+string camera_name
+---
+string push_type
+geometry_msgs/Point push_start
+geometry_msgs/Point push_end

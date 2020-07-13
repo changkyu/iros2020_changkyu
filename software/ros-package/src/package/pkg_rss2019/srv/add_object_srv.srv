@@ -1,0 +1,4 @@
+string name
+sensor_msgs/Image image
+float32 meter_per_pixel
+---
