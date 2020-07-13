@@ -6,6 +6,5 @@ This paper introduces a new technique for learning probabilistic models of mass 
 
 # Results
 
-<img src=".readme/img/iros2020_grasp.png" width="50%"/>
-<img src=".readme/img/iros2020_stable.png" width="50%"/>
-<img src=".readme/img/iros2020_real.png" width="50%"/>
+<img src=".readme/img/iros2020_grasp.png" width="50%"/><img src=".readme/img/iros2020_stable.png" width="50%"/>
+<img src=".readme/img/iros2020_real.png" width="70%"/>
